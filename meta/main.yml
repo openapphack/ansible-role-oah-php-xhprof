@@ -1,0 +1,21 @@
+---
+dependencies:
+  - { role: oah.php }
+  - { role: oah.php-pecl }
+
+galaxy_info:
+  author: Vinod Panicker
+  description: PHP XHProf for openapphack
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.0
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+    - development
+    - web

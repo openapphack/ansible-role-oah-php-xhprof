@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+
+  roles:
+    - oah.php
+    - oah.php-pecl
+    - ansible-role-oah-php-xhprof
